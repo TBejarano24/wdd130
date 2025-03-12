@@ -21,10 +21,6 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0;
-}
-
 main {
     max-width: 840px;
 }
@@ -41,6 +37,10 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+
+p {
+    padding: 0;
 }
 
 footer {
