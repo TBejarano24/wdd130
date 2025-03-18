@@ -1,16 +1,21 @@
+:root {
+    --main-color: white;
+    --contrast-color: darkblue;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--contrast-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--main-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--contrast-color);
 }
 
 main img {
@@ -30,8 +35,8 @@ aside {
     margin: 1rem;
     border: 2px solid rgba(25, 11, 235, 0.2);
     padding: 1rem;
-    background-color: darkblue;
-    color: white;
+    background-color: var(--contrast-color);
+    color: var(--main-color);
 }
 
 aside img {
@@ -47,7 +52,7 @@ footer {
     margin-top: 5rem;
     border-top: 1px solid black;
     padding: 1rem;
-    background-color: darkblue;
-    color: white;
+    background-color: var(--contrast-color);
+    color: var(--main-color);
     text-align: center;
 }
