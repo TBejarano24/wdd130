@@ -1,29 +1,48 @@
 :root {
-    --main-color: white;
+    --main-color: rgb(204, 255, 162);
     --contrast-color: darkblue;
+    --contrast-border: 2px solid rgba(25, 11, 235, 0.2);
+    --img-width: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
-    background-color: var(--contrast-color);
-    padding: 10px;
+    text-align: center;
 }
 
 nav a {
     color: var(--main-color);
-    display: block;
-    padding: 20px;
+    display: inline-block;
+    margin: 20px;
 }
 
-h1 {
+nav ::marker {
+    color: var(--main-color);
+}
+
+nav h2 {
     color: var(--contrast-color);
 }
 
+h1 {
+    margin: 1rem;
+    color: var(--contrast-color);
+    text-align: left;
+}
+
 main img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
+    margin: 1rem;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 main {
@@ -31,21 +50,28 @@ main {
 }
 
 aside {
-    width: 50rem;
-    margin: 1rem;
-    border: 2px solid rgba(25, 11, 235, 0.2);
-    padding: 1rem;
-    background-color: var(--contrast-color);
-    color: var(--main-color);
+    max-width: 840px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 35px;
+    left: 330px;
 }
 
 aside img {
-    width: 200px;
+    width: var(--img-width);
     height: auto;
+    margin: 1rem;
 }
 
 p {
+    margin: 1rem;
     padding: 0;
+    text-align: justify;
 }
 
 footer {
@@ -55,4 +81,15 @@ footer {
     background-color: var(--contrast-color);
     color: var(--main-color);
     text-align: center;
+}
+
+/* Class selectors */
+
+.box {
+    margin: 1rem;
+    border: var(--contrast-border);
+    padding: 1rem;
+    background-color: var(--contrast-color);
+    color: var(--main-color);
+    clear: both;
 }
