@@ -1,0 +1,56 @@
+:root {
+    --primary-color: rgb(9, 47, 103);
+    --secondary-color: rgb(187, 68, 48);
+    --accent1-color: rgb(206, 247, 160);
+    --accent2-color: rgb(86, 163, 166);
+}
+
+h1 {
+    font-family: 'Outfit';
+    color: var(--accent2-color);
+}
+
+p {
+    font-family: 'Roboto';
+    color: var(--accent1-color);
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    background-color: rgba(187, 68, 48, 0.5);
+    position: absolute;
+    font-size: 3rem;
+    top: 250px;
+    left: 465px;
+}
+
+.hero article {
+    width: 450px;
+    padding-left: 500px;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-color: rgba(9, 47, 103, 0.5);
+    position: absolute;
+    top: 450px;
+    right: 150px;
+}
+
+article p {
+    position: relative;
+    font-size: 30px;
+    right: 430px;
+    bottom: 150px;
+}
+
+article img {
+    float: right;
+}
