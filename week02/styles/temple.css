@@ -1,51 +1,53 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    width: 600px;
+    margin: auto;
+    font-family: lato, 'sans-serif';
 }
 
-header {
+header, footer {
     text-align: center;
-    align-content: center;
-    font-size: 32px;
+    padding: 1px;
     background-color: #333;
     color: white;
-    height: 100px;
+    font-size: 1.3rem;
+    margin: 10px;
 }
 
 h1 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 main {
-    align-content: center;
+    width: 60%;
+    margin: auto;
 }
 
 img {
     display: block;
     align-self: center;
-    width: 350px;
-    box-shadow: 0 0 30px black;
-    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 30px #666;
+    margin: auto;
 }
 
 section {
     background-color: #ddd;
-    margin: 30px auto;
-    width: 350px;
-    padding: 20px 20px;
+    margin: 20px auto;
+    width: 90%;
+    padding: 5%;
 }
 
 h2 {
-    display: block;
-    text-align: left;
     border-bottom: 1px solid black;
 }
 
 section p {
-    font-size: 14px;
-    margin: 10px 0;
-    font-weight: 500;
+    margin-left: 15px;
+}
+
+section ul {
+    margin-left: -10px;
 }
 
 li {
@@ -55,10 +57,5 @@ li {
 }
 
 footer {
-    text-align: center;
-    align-content: center;
-    font-size: 20px;
-    background-color: #333;
-    color: white;
-    height: 100px;
+    font-size: 1rem;
 }
