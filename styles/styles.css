@@ -1,10 +1,15 @@
+:root {
+    --bg-color: #642929;
+    --main-text-color: #ffffff;
+}
+
 nav {
-    background-color: #642929;
+    background-color: var(--bg-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--main-text-color);
     display: block;
     padding: 20px;
 }
@@ -18,8 +23,8 @@ aside {
     margin: 0 auto;
     border: 2px dashed white;
     padding: 10px 30px;
-    background-color: #642929;
-    color: white;
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
 }
 
 h1 {
@@ -47,9 +52,9 @@ p {
 }
 
 footer {
-    background-color: #642929;
+    background-color: var(--bg-color);
     margin-top: 20px;
     border-top: 2px dashed white;
     text-align: center;
-    color: white;
+    color: var(--main-text-color);
 }
