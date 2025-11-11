@@ -1,9 +1,8 @@
 :root {
     --primary-color: #336ca9;
-    --secondary-color: #163a50;
     --accent1-color: #252525;
     --accent2-color: #ffffff;
-    --supplementary-color: #a07d64;
+    --supplementary-color: #886953;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -34,7 +33,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 
