@@ -72,9 +72,10 @@ nav {
 nav ul {
     display: flex;
     justify-content: center;
-    border: 2px solid #000000;
+    border: 2px solid #000;
     border-radius: 10px;
     background-color: var(--accent2-color);
+    color: #000;
 }
 
 nav ul li {
