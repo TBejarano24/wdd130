@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 header {
@@ -72,10 +72,9 @@ nav {
 nav ul {
     display: flex;
     justify-content: center;
-    border: 2px solid var(--accent1-color);
     border-radius: 10px;
     background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 nav ul li {
