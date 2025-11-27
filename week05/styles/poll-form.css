@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3731e2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #3731e2;
+    margin: 28px 0;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: 0px auto;
+    padding: 40px;
+    border: 2px solid #28283d79;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    display: grid;
+    gap: 15px;
+}
+
+fieldset {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    width: 100%;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+legend {
+    background-color: #3731e2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+input,
+select,
+textarea,
+button,
+label {
+    font-family: 'lucida console';
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[type="checkbox"] {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+label {
+    width: fit-content;
+    text-align: right;
+    padding-right: 15px;
+}
+
+button {
+    background-color: #b3b2de;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 2px #606060;
+    transition: 500ms;
+}
+
+button:hover {
+    background-color: #5e5adb;
+    box-shadow: 0px 10px 5px #606060;
+}
+
+footer {
+    background-color: #3731e2;
+    color: white;
+    height: 120px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-title {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
