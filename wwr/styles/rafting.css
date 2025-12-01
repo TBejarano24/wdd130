@@ -29,7 +29,9 @@ header img {
     border-radius: 80px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 10px auto;
 }
@@ -46,7 +48,10 @@ h1 {
     color: var(--supplementary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px auto;
     padding: 8px;
 }
@@ -163,4 +168,69 @@ a {
 
 .socialmedia img {
     width: 30px;
+}
+
+.contact-section {
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 1fr;
+}
+
+.contact-section form {
+    display: grid;
+    grid-template: 40px 40px 70px 120px 30px 20px/ 1fr 2fr;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-section form input,
+textarea,
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-section form input[type="text"],
+input[type="email"] {
+    height: 2rem;
+}
+
+.contact-section form .newsletter,
+button {
+    grid-column: span 2;
+    padding: 10px 5px;
+}
+
+.contact-section form .message {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section form fieldset {
+    display: grid;
+    grid-template: repeat(3, 1fr) / 1fr 3fr;
+    gap: 8px;
+    border: none;
+}
+
+.contact-data {
+    grid-column: span 2;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #c86b6b7d;
+}
+
+.contact-data article {
+    margin: 0;
+}
+
+.contact-data p {
+    margin: 0;
+    padding: 0.3rem;
+}
+
+.map iframe {
+    width: 400px;
+    height: 400px;
 }

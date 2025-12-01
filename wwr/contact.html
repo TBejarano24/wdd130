@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact us for any information you would like to know about our services!">
+    <meta name="author" content="Tomas Bejarano">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/whitewater-logo.jpg" alt="Whitewater Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="li_style"><a href="about.html">About Us</a></li>
+                <li class="li_style"><a href="trips.html">Trips</a></li>
+                <li class="li_style"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-section">
+            <div class="contact-data">
+                <h1>Raft Voyage</h1>
+                <article>
+                    <address>
+                        <p>599 Main St.</p>
+                        <p>Vantage, Washington</p>
+                        <p>+1 999 999 9999</p>
+                        <p>info@raftvoyage.com</p>
+                    </address>
+                </article>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.6070282047558!2d-119.99293272115204!3d46.94511512026754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5499989b3dd37159%3A0xb3ed0e638e2f63a3!2s599%20Main%20St%2C%20Vantage%2C%20WA%2098950%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1764605244950!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Ex: Tomas Bejarano" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ex: tomas@mail.com" required>
+                <label for="purpose">Message Purpose:</label>
+                <fieldset id="purpose">
+                    <input type="radio" id="purpose1" name="purpose" value="general">
+                    <label for="purpose1">General Inquiry</label>
+                    <input type="radio" id="purpose2" name="purpose" value="reservation">
+                    <label for="purpose2">Reservation Question</label>
+                    <input type="radio" id="purpose3" name="purpose" value="website">
+                    <label for="purpose3">Website Suggestion</label>
+                </fieldset>
+                <div class="message">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Type here..."></textarea>
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="adventure-container">
+                <figure>
+                    <img src="images/employee1.jpg" alt="employee1">
+                    <figcaption>Customer Representative</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="employee2">
+                    <figcaption>Director</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="employee3">
+                    <figcaption>Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️ 2025 💦 Raft Voyage 💦 Tomas Bejarano</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
+            <a href="https://twitter.com"><img src="images/twitter-logo.png" alt="Twitter Logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram-logo.png" alt="Instagram Logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
