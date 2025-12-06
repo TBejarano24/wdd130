@@ -326,6 +326,12 @@ button {
     grid-column: span 3;
 }
 
+.trips .hero h2 {
+    font-size: 20px;
+    margin: 16px auto;
+    padding: 8px;
+}
+
 .trips .trip-types-info {
     grid-column: span 3;
     height: fit-content;
@@ -354,6 +360,11 @@ button {
     flex-direction: column;
     text-align: center;
     width: 100px;
+}
+
+.trips .trip-types figure p {
+    margin: 0;
+    padding: 10px;
 }
 
 .trips .popular-trip {
