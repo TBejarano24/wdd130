@@ -384,3 +384,11 @@ th {
     border: 3px solid #333;
     padding: 5px;
 }
+
+.button {
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #bfbfbf;
+    border: 1px solid #000;
+    font-size: small;
+}
